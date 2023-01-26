@@ -3,7 +3,7 @@ import styles from './Layout.module.scss'
 
 import { useEffect, useCallback } from 'react';
 import { useDispatch } from 'react-redux';
-import * as actions from '../../store/actions/index';
+import * as actions from '@actions';
 import Navbar from '@components/Navbar/Navbar';
 
 

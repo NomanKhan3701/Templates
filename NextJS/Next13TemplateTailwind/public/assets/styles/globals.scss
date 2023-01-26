@@ -1,4 +1,8 @@
-@import "/public/assets/styles/variables";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "public/assets/styles/variables";
+
 
 html {
     scroll-behavior: smooth;

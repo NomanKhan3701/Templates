@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from './Signup.module.scss'
 import { useDispatch } from 'react-redux'
 import { toast } from 'react-toastify'
-import * as actions from '@actions/index'
+import * as actions from '@actions'
 
 const Signup = () => {
 	const dispatch = useDispatch();

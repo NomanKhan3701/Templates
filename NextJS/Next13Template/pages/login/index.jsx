@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import Link from 'next/link';
 import { toast } from 'react-toastify'
-import *  as actions from '@actions/index';
+import *  as actions from '@actions';
 import styles from './Login.module.scss';
 
 const Login = () => {
